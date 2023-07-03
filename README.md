@@ -10,8 +10,11 @@ JsonPowerDB is a database server offering REST API services for developers. It's
 2. Benefits of using JsonPowerDB
 3. Scope of functionalities
 4. Commands Used in the Project
-5. Sources
-6. Release History
+5. Competitive Landscape
+6. Use Cases
+7. Why Prefer JsonPowerDB ?
+8. Sources
+9. Release History
 
 ## Description
 
@@ -40,6 +43,39 @@ JsonPowerDB is a database server offering REST API services for developers. It's
       Update Data : command used ( UPDATE )
       Display Data : command used ( GET )
       Delete Data : command used ( REMOVE )
+
+## Competitive Landscape
+|Feature| MongoDB | MySQL | Redis | HBase | Influx DB | JasonPowerDB |
+|--|--|--|--|--|--|--|
+| Document DB | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ |
+| Key-Value DB | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ |
+| RDBMS | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️* |
+| GeoSpatial | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ |
+| Time Series DB | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ |
+| Wide Column Stores | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️* |
+
+## Use Cases
+- Any software application that needs backend database
+- Dynamic web applications/Mobile/Desktop Apps
+- All RDBMS Use-cases
+- All Document DB Use-cases
+- All Key-Value DB Use-cases
+- Use-cases that needs GeoSpatial/Time-series Analytics
+- Best suited to real-time application for data analytics
+- Improve existing application reporting / analytics performance
+- Live working HTMl templates
+
+## Why Prefer JsonPowerDB ?
+- Minimum Development Cost
+- Minimum Time to Market
+- Minimize the complexity of interoperability of different applications
+- Maximum data processing performance
+- Technology Futuristic
+- Fills gap from database to big-data
+- Pluggable with new algorithms
+- Pluggable and user defined API
+- Minimize Total Cost of Ownership
+
 
 ## Scope of functionalities
 - Add more functions in the JPDB Common.js Script.
