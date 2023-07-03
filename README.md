@@ -32,35 +32,6 @@ JsonPowerDB is a database server offering REST API services for developers. It's
 - Can be integrated with dynamic web applications that need a backend database.
 - Improves performance of existing applications.
 
-  ## Easiest Syntax Usage :
-  // GET - Query
-
-{
-"token": "2134770734|19056227XXXXX281054|2134XXXXXX",
-"cmd": "GET",
-"dbName": "Company",
-"rel": "Employee",
-"jsonStr":{
-    "empName": "Oshin Pojta"
-    }
-}
-
-// INSERT - Query
-
-{
-  "token" : "90935402|-31948797XXXX293566|909XXXX",
-  "cmd" : "PUT",
-  "dbName" : "Emloyee",
-  "rel" : "Emp-rel",
-  "jsonStr" : {
-    "name" : "Oshin Pojta",
-    "email" : "Sujanian785@gmail.com",
-    "mobile" : 7018516XXX,
-    "address" : "Solan"
-        }
-}
-
-
 ## Scope of functionalities
 - Add more functions in the JPDB Common.js Script.
 
