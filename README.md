@@ -9,8 +9,9 @@ JsonPowerDB is a database server offering REST API services for developers. It's
 1. Description
 2. Benefits of using JsonPowerDB
 3. Scope of functionalities
-4. Sources
-5. Release History
+4. Commands Used in the Project
+5. Sources
+6. Release History
 
 ## Description
 
@@ -31,6 +32,14 @@ JsonPowerDB is a database server offering REST API services for developers. It's
 - It is Pluggable with new algorithms and user defined API's.
 - Can be integrated with dynamic web applications that need a backend database.
 - Improves performance of existing applications.
+
+## Commands Used in the Project:
+  This is a mini project to simulate All CRUD Operations using Json Power DB .
+
+      Insert Data : command used ( PUT )
+      Update Data : command used ( UPDATE )
+      Display Data : command used ( GET )
+      Delete Data : command used ( REMOVE )
 
 ## Scope of functionalities
 - Add more functions in the JPDB Common.js Script.
